@@ -5,13 +5,17 @@ const Home = () => {
   return (
     <div className="home">
       <div className="title">
-        <h1>
-          <p>Hello,</p>
-          <p>I'm Marek!</p>
-          <p>Software Developer</p>
-        </h1>
-        <Link to="/about">
-          <button>More Info</button>
+        <h2>
+          <p>Hi, I'm Marek. Nice to meet you!</p>
+          <br/>
+        </h2>
+        <h4>
+          <p>I'm a Frontend Developer specializing in React JS.</p>
+          <p>I love creating beautiful and clean web applications.</p>
+        </h4>
+        
+        <Link className="title-link" to="/projects">
+          <button>View my work</button>
         </Link>
       </div>
       <div className="logo">
