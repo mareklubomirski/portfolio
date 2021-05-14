@@ -6,12 +6,12 @@ const Home = () => {
     <div className="home">
       <div className="title">
         <h2>
-          <p>Hi, I'm Marek. Nice to meet you!</p>
+          <p>Hi, I'm Marek!</p>
           <br/>
         </h2>
         <h4>
-          <p>I'm a Frontend Developer specializing in React JS.</p>
-          <p>I love creating beautiful and clean web applications.</p>
+          <p>I'm a front-end React developer honing my</p>
+          <p>skills to build responsive and accessible web apps.</p>
         </h4>
         
         <Link className="title-link" to="/projects">
